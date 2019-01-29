@@ -44,6 +44,6 @@ func Coffee() string {
 
 // Bread eats bread.
 func Bread() string {
-	dislikes := []string{""}
+	dislikes := []string{"sliced"}
 	return try("bread", bread.Slice(), dislikes)
 }
